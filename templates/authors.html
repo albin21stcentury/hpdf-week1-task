@@ -1,0 +1,17 @@
+<html>
+<body>
+
+<h1>Count of posts authorwise</h1>
+
+{% for author in authors %}
+ {% set count = [0] %}
+  {% for post in posts %}
+    {% if post.userId == author.id %}
+        {% if count.append(count.pop() + 1) %}
+        {% endif %}
+    {% endif %}
+  {% endfor %}
+<div>Author {{author.name}} has written {{count}} posts</div>
+{% endfor %}
+</body>
+</html>
