@@ -21,7 +21,8 @@ Afer installing python and pip, navigate to the folder containing these files an
 
 * "set FLASK_APP=routes.py"
 then enter
-now to run the app
+
+Now to run the app
 
 * "flask run"
 
@@ -32,7 +33,7 @@ now to run the app
   After running "flask run" in cmd open browser at http://127.0.0.1:5000/ and output will be displayed.
 
 
-2) Responding with authors and lists with objects acquired from different urls.
+2) Responding with authors and number of posts with objects acquired from different urls.
    Open http://127.0.0.1:5000/authors and output will be displayed.
 
 3) Set a simple cookie (if it has not already been set) 
