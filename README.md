@@ -18,10 +18,12 @@ Flask the official site is http://flask.pocoo.org/docs/0.12/installation/
 In cmd for windows and equivalent terminals:
 
 Afer installing python and pip, navigate to the folder containing these files and install flask by "pip install flask"
-*"set FLASK_APP=routes.py"
+
+* "set FLASK_APP=routes.py"
 then enter
 now to run the app
-*"flask run"
+
+* "flask run"
 
 
 ## Running the tests
